@@ -1,4 +1,4 @@
-package cc.onetos.hsueh.arrayanimationtest.frameloader;
+package cc.onetos.hsueh.frameloader;
 
 import android.widget.ImageView;
 

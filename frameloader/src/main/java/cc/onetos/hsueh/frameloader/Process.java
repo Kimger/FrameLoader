@@ -1,14 +1,10 @@
-package cc.onetos.hsueh.arrayanimationtest.frameloader;
+package cc.onetos.hsueh.frameloader;
 
-import android.content.Context;
-import android.os.Handler;
 import android.support.v4.util.Pools;
 import android.widget.ImageView;
 
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * Created with Android Studio.

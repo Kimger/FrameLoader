@@ -11,9 +11,6 @@ import android.util.Log;
  * @author Hsueh
  * @email hsueh@onetos.cc
  * @date 2017/2/14 14:50
- *
- * Modify by Jeffery Leng :
- *      <A>add genetateDefaultImages()</A>
  */
 
 public class DrawableArray {

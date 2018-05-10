@@ -1,0 +1,18 @@
+
+task copyAAR(type: Copy) {
+    from 'build/outputs/aar'
+    into "../app/libs"
+    include(project.name + '-release.aar')
+    rename(project.name + '-release.aar', project.name + ".aar")
+}
+
+afterEvaluate {
+    if (project.hasProperty("assembleRelease")) {
+        assembleRelease.doLast {
+            copyAAR.execute()
+        }
+    }
+}
+assemble.doLast {
+    copyAAR.execute()
+}

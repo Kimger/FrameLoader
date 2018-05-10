@@ -1,28 +1,18 @@
 package cc.onetos.hsueh.arrayanimationtest;
 
+import android.widget.ImageView;
+
+import java.util.Enumeration;
+import java.util.Vector;
+
+import cc.onetos.hsueh.frameloader.Process;
+
 /**
  * Created with Android Studio.
  *
  * @author Hsueh
  * @email hsueh@onetos.cc
  * @date 2017-12-29  11:18
- */
-
-
-import android.widget.ImageView;
-
-import java.util.Enumeration;
-import java.util.Objects;
-import java.util.Vector;
-
-import cc.onetos.hsueh.arrayanimationtest.frameloader.Process;
-
-/**
- * Project name : DurianObjectPool
- * Created by zhibao.liu on 2016/1/8.
- * Time : 16:06
- * Email warden_sprite@foxmail.com
- * Action : durian
  */
 public class ObjectPool<T> {
 
@@ -110,10 +100,10 @@ public class ObjectPool<T> {
 
     }
 
-    private void createObjects(){
+    private void createObjects() {
 
 //        Object obj = new Object();
-        Process obj=new Process();
+        Process obj = new Process();
         objects.addElement(new PooledObject(obj));
         mNumObjects++;
 

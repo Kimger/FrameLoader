@@ -1,22 +1,14 @@
 package cc.onetos.hsueh.arrayanimationtest;
 
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
-import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
-import cc.onetos.hsueh.arrayanimationtest.frameloader.FrameLoader;
-import cc.onetos.hsueh.arrayanimationtest.frameloader.Process;
-import io.reactivex.Observable;
-import io.reactivex.ObservableEmitter;
-import io.reactivex.ObservableOnSubscribe;
-import io.reactivex.Observer;
-import io.reactivex.disposables.Disposable;
+import cc.onetos.hsueh.frameloader.FrameLoader;
+
 
 public class MainActivity extends AppCompatActivity {
 
